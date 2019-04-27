@@ -6,8 +6,7 @@ public class RegisterObservers {
     private String observerStallName;
     private String observerStallNumber;
 
-    public RegisterObservers(){
-        //
+    public RegisterObservers(){//
     }
 
     public RegisterObservers(String observerEmailAddress, String observerStallName, String observerStallNumber) {
