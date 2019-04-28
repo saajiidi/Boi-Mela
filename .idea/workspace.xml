@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f7778f8-284a-48d5-8a34-b6f0cb0a5a6b" name="Default Changelist" comment="" />
+    <list default="true" id="5f7778f8-284a-48d5-8a34-b6f0cb0a5a6b" name="Default Changelist" comment="&quot;s9&quot;" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
         <option value="$PROJECT_DIR$/MainActivity.java" />
         <option value="$PROJECT_DIR$/SeparateUserActivity.java" />
         <option value="$PROJECT_DIR$/RegisterObservers.java" />
+        <option value="$PROJECT_DIR$/SearchActivity.java" />
       </list>
     </option>
   </component>
@@ -123,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556386031118</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;s8&quot;">
+      <created>1556386154311</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1556386154311</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -153,7 +161,8 @@
     <MESSAGE value="&quot;s5&quot;" />
     <MESSAGE value="&quot;s6&quot;" />
     <MESSAGE value="&quot;s7&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;s7&quot;" />
+    <MESSAGE value="&quot;s8&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;s8&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SeparateUserActivity.java">
@@ -204,6 +213,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="108" column="10" lean-forward="true" selection-start-line="108" selection-start-column="10" selection-end-line="108" selection-end-column="10" />
         </state>
       </provider>
     </entry>
