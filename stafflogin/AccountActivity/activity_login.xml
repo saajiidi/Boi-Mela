@@ -91,6 +91,6 @@
         android:visibility="gone"
         tools:layout_editor_absoluteX="142dp"
         tools:layout_editor_absoluteY="162dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints" /
 
 </android.support.constraint.ConstraintLayout>
