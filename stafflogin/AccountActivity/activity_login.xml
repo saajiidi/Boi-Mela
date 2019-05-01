@@ -89,7 +89,7 @@
         android:layout_height="100dp"
         android:layout_gravity="center|bottom"
         android:visibility="gone"
-        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteX="146dp"
         tools:layout_editor_absoluteY="162dp"
         tools:ignore="MissingConstraints" />
 
