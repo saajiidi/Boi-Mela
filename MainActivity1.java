@@ -44,7 +44,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.GoogleAuthProvider;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity1 extends AppCompatActivity implements View.OnClickListener {
     private EditText editText_emailaddress, editText_password;
     private CardView cardView_login;
     private TextView  textView_forgot_password;
