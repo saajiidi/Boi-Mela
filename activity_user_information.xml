@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="50dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="50dp"
+        android:orientation="vertical"
+        tools:context=".UserInformationActivity">
+
+
+        <TextView
+            android:id="@+id/TextViewAddStallInfoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center"
+            android:paddingBottom="11dp"
+            android:text="@string/user_information"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/idTextViewStallName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TextViewAddStallInfoTitle"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/aclonica"
+            android:paddingTop="3dp"
+            android:text="@string/my_stall_name"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/idTextViewShowStallName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTextViewStallName"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/aclonica"
+            android:paddingTop="3dp"
+            android:text="@string/my_stall_name"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/idTextViewStallNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTextViewShowStallName"
+            android:layout_marginTop="39dp"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/my_stall_no"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/idTextViewShowStallNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTextViewStallNumber"
+            android:layout_marginTop="37dp"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/my_stall_no"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/idTextViewUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTextViewShowStallNumber"
+            android:layout_marginTop="46dp"
+            android:fontFamily="@font/aclonica"
+            android:paddingTop="3dp"
+            android:text="@string/user_email"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editTextUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idTextViewUserEmail"
+            android:layout_marginTop="26dp"
+             />
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/CardViewAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_below="@id/idTextViewUserEmail"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="510dp"
+            android:layout_marginRight="50dp"
+            app:cardBackgroundColor="@color/login_button_background_color"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/CardViewAdd"
+                android:layout_alignTop="@+id/CardViewAdd"
+                android:layout_toEndOf="@+id/CardViewAdd">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:gravity="center"
+                    android:text="@string/add"
+                    android:textColor="#FFFFFF"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+</ScrollView>
