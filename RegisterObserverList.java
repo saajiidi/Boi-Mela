@@ -39,6 +39,9 @@ public class RegisterObserverList extends ArrayAdapter<RegisterObservers> {
         textViewObserverStallName = listViewItem.findViewById(R.id.idtextViewListObserversStallName);
 
 
+        RegisterObservers registerObservers = registerObserversListAdapter.get(position);
+
+        textViewObserverEmail.setText(registerObservers.getObserverEmailAddress());
 
 
 
