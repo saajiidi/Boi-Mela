@@ -68,6 +68,7 @@ public class ViewObserversActivity extends AppCompatActivity {
 
             RegisterObserverList registerObserverList = new RegisterObserverList(ViewObserversActivity.this, registerObserversAdapter);
             listViewObserversList.setAdapter(registerObserverList);
+            registerObserversAdapter.add(r);
 
 
 
