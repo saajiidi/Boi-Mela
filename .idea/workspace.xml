@@ -10,13 +10,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ViewObserversActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="380">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RegisterObserverList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/activity_user_information.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -31,6 +45,8 @@
         <option value="$PROJECT_DIR$/SeparateUserActivity.java" />
         <option value="$PROJECT_DIR$/RegisterObservers.java" />
         <option value="$PROJECT_DIR$/SearchActivity.java" />
+        <option value="$PROJECT_DIR$/ViewObserversActivity.java" />
+        <option value="$PROJECT_DIR$/RegisterObserverList.java" />
       </list>
     </option>
   </component>
@@ -51,6 +67,10 @@
             <path>
               <item name="Boi-Mela" type="b2602c69:ProjectViewProjectNode" />
               <item name="Boi-Mela" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Boi-Mela" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -169,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556820235938</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&quot;s14&quot;">
+      <created>1556820393989</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1556820393989</updated>
+    </task>
+    <task id="LOCAL-00013" summary="&quot;s15&quot;">
+      <created>1556820546193</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1556820546193</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -205,7 +239,9 @@
     <MESSAGE value="&quot;s11&quot;" />
     <MESSAGE value="&quot;s12&quot;" />
     <MESSAGE value="&quot;s13&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;s13&quot;" />
+    <MESSAGE value="&quot;s14&quot;" />
+    <MESSAGE value="&quot;s15&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;s15&quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SeparateUserActivity.java">
@@ -221,9 +257,6 @@
           <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RegisterObserverList.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/AddStallInformationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -278,10 +311,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ViewObserversActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="380">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegisterObserverList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity_user_information.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
