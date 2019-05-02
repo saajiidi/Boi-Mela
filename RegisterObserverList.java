@@ -21,6 +21,11 @@ public class RegisterObserverList extends ArrayAdapter<RegisterObservers> {
         super(context, R.layout.list_layout_observers, registerObserversListAdapter);
         this.context = context;
         this.registerObserversListAdapter = registerObserversListAdapter;
+
+
+        RegisterObservers registerObservers = registerObserversListAdapter.get(position);
+
+        textViewObserverEmail.setText(registerObservers.getObserverEmailAddress());
     }
 
 
