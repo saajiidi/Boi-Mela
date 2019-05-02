@@ -1,4 +1,4 @@
-package com.example.boimela;
+package com.example.e_boimela;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -226,6 +226,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         editText_password.setText("");
         googleSignInClient.signOut();
     }
+
+
 
 
 
