@@ -61,7 +61,7 @@ public class ViewObserversActivity extends AppCompatActivity {
             for (DataSnapshot bookInfoSnapshot : dataSnapshot.getChildren()) {
 
                 RegisterObservers r = bookInfoSnapshot.getValue(RegisterObservers.class);
-                registerObserversAdapter.add(r);
+
 
 
             }
